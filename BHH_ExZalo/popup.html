@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extract Account Info</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Lấy thông tin tài khoản</h1>
+
+    <div class="input-group">
+      <label for="cookies">Cookie:</label>
+      <textarea id="cookies" rows="3" readonly></textarea>
+    </div>
+
+    <div class="input-group">
+      <label for="imei">IMEI:</label>
+      <input type="text" id="imei" readonly>
+    </div>
+
+    <div class="input-group">
+      <label for="user-agent">User Agent:</label>
+      <input type="text" id="user-agent" readonly>
+    </div>
+    
+    <div class="button-container">
+      <button id="btn-copy-imei">Copy IMEI</button>
+      <button id="btn-copy-cookies">Copy Cookie</button>
+      <button id="btn-copy-ua">Copy User Agent</button>
+      <button id="refresh-button">Refresh Page</button>
+    </div>
+  </div>
+
+  <span id="version"></span>
+
+  <script src="./js/custom.js"></script>
+  <script src="./js/tuye.js"></script>
+  <script src="./js/popup.js"></script>
+</body>
+</html>

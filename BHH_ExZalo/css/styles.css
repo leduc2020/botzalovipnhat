@@ -1,0 +1,142 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #6eb0d1 0%, #d6eaf8 100%);
+
+  /*background: url('/BHH_ExZalo/images/muadong.png') no-repeat center center fixed;*/
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+  min-width: 350px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  background-blend-mode: overlay; /* Tùy chọn blend để tăng độ tương phản */
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(31, 38, 135, 0.2);
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  color: #1a61f0e6;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  transition: color 0.3s ease;
+}
+
+h1:hover {
+  color: #1864e7;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #5f5f5f;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+textarea, input[type="text"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d3cfe5;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: vertical;
+  background-color: #fafafa;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  line-height: 1.5;
+}
+
+textarea:focus, input[type="text"]:focus {
+  outline: none;
+  border-color: #07f1ee;
+  box-shadow: 0 0 0 3px rgba(17, 75, 221, 0.741);
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.button-container button {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #a6e1ff;
+  color: #0a0a0a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.button-container button:hover {
+  background-color: #6fc3f9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(143, 4, 4, 0.1);
+}
+
+.button-container button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.button-container button:disabled {
+  background-color: #d3d3d3;
+  color: #888;
+  cursor: not-allowed;
+}
+
+ /* Định dạng bông tuyết */
+ .bongtuyet { /* lớp CSS cho bông tuyết */
+  position: fixed; /* vị trí cố định */
+  top: -10px; /* vị trí trên */
+  color: white; /* màu chữ */
+  font-size: 10px; /* kích thước chữ */
+  user-select: none; /* không chọn được */
+  z-index: 1000; /* thứ tự lớp */
+  animation: fall linear infinite; /* hiệu ứng rơi */
+}
+
+/* Hiệu ứng rơi bông tuyết */
+@keyframes fall { /* hiệu ứng rơi */
+  to { 
+      transform: translateY(100vh); /* di chuyển xuống dưới */
+  }
+}
+
+#version {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #9b9b9b;
+}
+
+@media (max-width: 400px) {
+  .button-container {
+    grid-template-columns: 1fr;
+  }
+}

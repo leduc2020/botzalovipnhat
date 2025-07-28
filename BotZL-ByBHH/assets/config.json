@@ -1,0 +1,18 @@
+{
+  "cookie": {
+    "cookies": [
+      { "name": "_ga", "value": "GA1.2.1983096281.1750570073" },
+      { "name": "_ga_VM4ZJE1265", "value": "GS2.2.s1750570073$o1$g1$t1750570124$j9$l0$h0" },
+      { "name": "_ga_RYD7END4JE", "value": "GS2.2.s1750570133$o1$g1$t1750570134$j59$l0$h0" },
+      { "name": "ozi", "value": "2000.QOBlzDCV2uGerkFzm09HrsVMu_t425RGBDxa-OWCLjKjsElnEJO.1" },
+      { "name": "zpsid", "value": "Ckwj.430704944.4.9PPuz7SOAb974OPBUnWgKW9hM6P4A1rYGo4UPcnR1X95wGZpTfzPq1yOAb8" },
+      { "name": "zpw_sek", "value": "8sYX.430704944.a0.GCybTBd1v9U9o4YEcC7abyBZWVoR-yR5ruRTejZrqUFseeBZ-hMqhyoFZQxU_DcrnDgdk_dp5RKOm6taEwdabm" },
+      { "name": "__zi", "value": "3000.SSZzejyD6zOgdh2mtnLQWYQN_RAG01ICFjIXe9fEM8WzcUgadKTRZ7MHwQNHGrk9T9VchJas.1" },
+      { "name": "__zi-legacy", "value": "3000.SSZzejyD6zOgdh2mtnLQWYQN_RAG01ICFjIXe9fEM8WzcUgadKTRZ7MHwQNHGrk9T9VchJas.1" },
+      { "name": "app.event.zalo.me", "value": "904683936355823367" },
+      { "name": "_zlang", "value": "vn" }
+    ]
+  },
+  "imei": "a907ab3d-f688-4104-a41f-aaa5118f0994-cd5d5f3ff8f374827248e13d2f7d64ca",
+  "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Mobile Safari/537.36"
+}

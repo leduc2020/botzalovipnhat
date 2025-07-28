@@ -1,0 +1,50 @@
+{
+	"name": "BHH_ExZalo",
+	"version": "1.1.0",
+	"description": "BHH_ExZalo is a utility that allows you to easily extract the necessary data to run a Zalo ChatBot (such as Cookie, IMEI, UserAgent) with just a few clicks.",
+	"manifest_version": 3,
+	"homepage_url": "https://github.com/noithanhtung/VenomS-Extractor-Zalo/",
+	"icons": {
+		"16": "images/icon-16.png",
+		"32": "images/icon-32.png",
+		"64": "images/icon-64.png",
+		"128": "images/icon-128.png",
+		"192": "images/icon-192.png",
+		"384": "images/icon-384.png"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"permissions": [
+		"tabs",
+		"cookies",
+		"storage",
+		"activeTab",
+		"webRequest",
+		"notifications",
+		"clipboardWrite",
+		"declarativeNetRequest"
+	],
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["js/popup.js"]
+		}
+	],
+	"host_permissions": [
+		"<all_urls>"
+	],
+	"action": {
+		"default_icon": {
+			"384": "images/icon-384.png"
+		},
+		"default_popup": "popup.html"
+	},
+	"externally_connectable": {
+		"matches": [
+			"http://localhost:3008/*",
+			"http://127.0.0.1:3008/*"
+		]
+	},
+	"incognito": "spanning"
+}

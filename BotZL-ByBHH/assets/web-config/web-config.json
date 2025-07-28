@@ -1,0 +1,74 @@
+{
+  "prObjects": [
+    {
+      "ten": "Phạm Văn Tám",
+      "idZalo": "-1",
+      "noiDung": "Autosend Tổng",
+      "hinhAnh": [
+        "dqtbot.jpg"
+      ],
+      "video": [],
+      "link": {},
+      "thoiGianGui": [
+        "03:00",
+        "05:00",
+        "08:00",
+        "10:00",
+        "13:00",
+        "14:40",
+        "16:00",
+        "19:00",
+        "22:00"
+      ],
+      "customContent": {
+        "6206209960966272896": {
+          "noiDung": "Key vàng Không phải admin game mọi vấn đề liên quan đến game vui lòng ib key bạc Ngojc",
+          "hinhAnh": [],
+          "video": []
+        },
+        "4373007278127828240": {
+          "noiDung": "",
+          "hinhAnh": [],
+          "video": []
+        }
+      }
+    }
+  ],
+  "selectedGroups": {
+    "803286610604092028": {
+      "name": "Lập Trình Bất Ổn"
+    },
+    "3630714032801387579": {
+      "name": "BOT ZALO"
+    },
+    "1070694926323683714": {
+      "name": "Huy Nguyễn, Tuaans, Yêu Em"
+    },
+    "2099747095321868922": {
+      "name": "Test attack & anti"
+    },
+    "7419736287774005921": {
+      "name": "Cộng Đồng Coder [ 1 ]"
+    },
+    "2668651960652753233": {
+      "name": "Gia đình Genshin2"
+    },
+    "6628043522534368418": {
+      "name": "Gia đình Genshin"
+    },
+    "8698747044246979809": {
+      "name": "bot lỏ"
+    }
+  },
+  "selectedFriends": {
+    "1024615385280328231": {
+      "name": "Hoàng Đỗ"
+    },
+    "5709414690625679396": {
+      "name": "Văn"
+    },
+    "1754339579740079175": {
+      "name": "Thành Trung"
+    }
+  }
+}
